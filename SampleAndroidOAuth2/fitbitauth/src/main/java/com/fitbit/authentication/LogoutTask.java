@@ -6,7 +6,7 @@ import com.fitbit.fitbitcommon.network.BasicHttpResponse;
 
 import android.os.AsyncTask;
 import android.os.Handler;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.Base64;
 
 import java.io.IOException;

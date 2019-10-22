@@ -36,7 +36,7 @@ public class FitbitAuthApplication extends Application {
 
     /**
      * This key was generated using the SecureKeyGenerator [java] class. Run as a Java application (not Android)
-     * This key is used to encrypt the authentication token in Android user preferences. If someone decompiles
+     * This key is used to encrypt the authentication token in Android user preferences. If someone deimplementations
      * your application they'll have access to this key, and access to your user's authentication token
      */
     //!! THIS SHOULD BE IN AN ANDROID KEYSTORE!! See https://developer.android.com/training/articles/keystore.html

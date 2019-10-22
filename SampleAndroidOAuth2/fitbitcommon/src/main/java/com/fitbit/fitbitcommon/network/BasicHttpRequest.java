@@ -1,6 +1,6 @@
 package com.fitbit.fitbitcommon.network;
 
-import android.support.v4.util.Pair;
+import androidx.core.util.Pair;
 import android.text.TextUtils;
 
 import java.io.ByteArrayOutputStream;

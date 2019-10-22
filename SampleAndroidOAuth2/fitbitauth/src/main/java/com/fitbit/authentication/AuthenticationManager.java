@@ -7,9 +7,10 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
-import com.android.annotations.Nullable;
+
 import com.sveinungkb.SecurePreferences;
 
 import java.util.HashSet;
