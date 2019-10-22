@@ -22,11 +22,11 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     api project(':fitbitauth')
-    compile project(':fitbitcommon')
-    compile 'androidx.appcompat:appcompat:1.0.0'
-    compile 'com.google.android.material:material:1.0.0'
+    implementation project(':fitbitcommon')
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
 
     testCompile 'junit:junit:4.+'
 }
